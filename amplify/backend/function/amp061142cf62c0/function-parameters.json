@@ -5,7 +5,7 @@
       "resourceName": "amp0611layera650cd6f",
       "version": "Always choose latest version",
       "isLatestVersionSelected": true,
-      "env": "dev"
+      "env": "prod"
     }
   ]
 }

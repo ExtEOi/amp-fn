@@ -23,5 +23,30 @@
         }
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amp0611-prod-32644-authRole",
+      "UnauthRoleArn": "arn:aws:iam::880561854626:role/amplify-amp0611-prod-32644-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::880561854626:role/amplify-amp0611-prod-32644-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amp0611-prod-32644-deployment",
+      "UnauthRoleName": "amplify-amp0611-prod-32644-unauthRole",
+      "StackName": "amplify-amp0611-prod-32644",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:880561854626:stack/amplify-amp0611-prod-32644/c29445b0-2934-11ef-8465-0ebcf24a07f7",
+      "AmplifyAppId": "d3jpmtaj55msu6"
+    },
+    "categories": {
+      "function": {
+        "amp061142cf62c0": {
+          "deploymentBucketName": "amplify-amp0611-prod-32644-deployment",
+          "s3Key": "amplify-builds/amp061142cf62c0-4a73624f702b57526169-build.zip"
+        },
+        "amp0611layera650cd6f": {
+          "deploymentBucketName": "amplify-amp0611-prod-32644-deployment",
+          "s3Key": "amplify-builds/amp0611layera650cd6f-LambdaLayerVersion52cae844-build.zip"
+        }
+      }
+    }
   }
 }
