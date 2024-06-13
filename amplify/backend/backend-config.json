@@ -14,6 +14,11 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
+    "amp0611e1fc3348": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "amp0611layera650cd6f": {
       "build": true,
       "providerPlugin": "awscloudformation",
@@ -34,6 +39,22 @@
         {
           "category": "function",
           "resourceName": "amp061142cf62c0"
+        }
+      ]
+    },
+    "AMPLIFY_function_amp0611e1fc3348_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amp0611e1fc3348"
+        }
+      ]
+    },
+    "AMPLIFY_function_amp0611e1fc3348_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amp0611e1fc3348"
         }
       ]
     },
