@@ -1,0 +1,57 @@
+{
+  "function": {
+    "amp061142cf62c0": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amp0611layera650cd6f"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "amp0611layera650cd6f": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amp061142cf62c0_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amp061142cf62c0"
+        }
+      ]
+    },
+    "AMPLIFY_function_amp061142cf62c0_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amp061142cf62c0"
+        }
+      ]
+    },
+    "AMPLIFY_function_amp0611layera650cd6f_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amp0611layera650cd6f"
+        }
+      ]
+    },
+    "AMPLIFY_function_amp0611layera650cd6f_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amp0611layera650cd6f"
+        }
+      ]
+    }
+  }
+}
