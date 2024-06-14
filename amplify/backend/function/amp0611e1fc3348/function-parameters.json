@@ -1,3 +1,11 @@
 {
-  "lambdaLayers": []
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "amp0611layera650cd6f",
+      "env": "prod",
+      "version": 1,
+      "isLatestVersionSelected": false
+    }
+  ]
 }

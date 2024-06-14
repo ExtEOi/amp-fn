@@ -15,6 +15,10 @@
     },
     "s3Key": {
       "Type": "String"
+    },
+    "functionamp0611layera650cd6fArn": {
+      "Type": "String",
+      "Default": "functionamp0611layera650cd6fArn"
     }
   },
   "Conditions": {
@@ -79,7 +83,11 @@
           ]
         },
         "Runtime": "nodejs18.x",
-        "Layers": [],
+        "Layers": [
+          {
+            "Fn::Sub": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:amp0611layera650cd6f-prod:1"
+          }
+        ],
         "Timeout": 25
       }
     },

@@ -16,6 +16,15 @@
     },
     "amp0611e1fc3348": {
       "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amp0611layera650cd6f"
+        }
+      ],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },

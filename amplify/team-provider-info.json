@@ -49,6 +49,10 @@
         "amp0611layera650cd6f": {
           "deploymentBucketName": "amplify-amp0611-prod-32644-deployment",
           "s3Key": "amplify-builds/amp0611layera650cd6f-LambdaLayerVersion52cae844-build.zip"
+        },
+        "amp0611e1fc3348": {
+          "deploymentBucketName": "amplify-amp0611-prod-32644-deployment",
+          "s3Key": "amplify-builds/amp0611e1fc3348-6d6f4550364b435a5738-build.zip"
         }
       }
     }
